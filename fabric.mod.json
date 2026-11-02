@@ -3,7 +3,7 @@
   "id": "fpsincreaser",
   "version": "${version}",
   "name": "FPSincreaser",
-  "description": "A deliberately performance-heavy visual joke mod with a fake 10000 FPS HUD.",
+  "description": "TimmyTuffKnucklesCyxAHHH.",
   "environment": "client",
   "entrypoints": { "client": ["com.cyx.fpsincreaser.FPSincreaserClient"] },
   "mixins": ["fpsincreaser.mixins.json"],
