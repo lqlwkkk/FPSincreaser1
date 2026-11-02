@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsincreaser",
+  "version": "${version}",
+  "name": "FPSincreaser",
+  "description": "A deliberately performance-heavy visual joke mod with a fake 10000 FPS HUD.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.cyx.fpsincreaser.FPSincreaserClient"] },
+  "mixins": ["fpsincreaser.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
